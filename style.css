@@ -1,0 +1,63 @@
+@font-face {
+    font-family: "Myriad";
+    src: url(myriad-pro-cufonfonts-webfont/MYRIADPRO-REGULAR.woff);
+}
+
+.logo {
+    width: 100px;
+    margin-left: 30px;
+}
+
+.navlink {
+    list-style-type: none;
+}
+
+.navlink li {
+    display: inline;
+    padding: 50px;
+}
+
+.navlink li a {
+    color: white;
+}
+
+.banner {
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    font-family: Myriad;
+    font-size: 30px;
+}
+
+.cta {
+    padding: 15px 32px;
+    font-family: Myriad;
+    font-size: 30px;
+}
+
+.hitam {
+    background-color: black;
+    color: white;
+    width: 49%;
+    height: 300px;
+    text-align: right;
+}
+
+.banner2 {
+    width: 49%;
+    height: 300px;
+    background-image: url(51b1dd50-3101-495c-a38d-f0f1bb59e761_169.jpeg);
+    text-align: center;
+}
+
+.oty {
+    display: flex;
+    margin-top: 10px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.logo2 {
+    width: 30px;
+    height: 50px;
+}
