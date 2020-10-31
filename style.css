@@ -21,7 +21,7 @@
 .navlink li {
     display: inline;
     padding: 50px;
-    line-height: 100%;
+    line-height: 100px;
 }
 
 .navlink li a {
