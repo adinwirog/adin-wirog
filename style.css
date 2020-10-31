@@ -3,6 +3,12 @@
     src: url(myriad-pro-cufonfonts-webfont/MYRIADPRO-REGULAR.woff);
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .logo {
     width: 100px;
     margin-left: 30px;
