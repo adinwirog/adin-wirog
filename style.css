@@ -12,7 +12,8 @@
 .logo {
     width: 85px;
     height: 85px;
-    margin-left: 30px;
+    margin-top: 8px;
+    margin-left: 50px;
 }
 
 .navlink {
@@ -21,13 +22,17 @@
 
 .navlink li {
     display: inline;
-    padding: 50px;
+    padding: 39px 50px;
     line-height: 100px;
 }
 
 .navlink li a {
     color: white;
     text-decoration: none;
+}
+
+.navlink li:hover {
+    background: #ed1c24;
 }
 
 .banner {
