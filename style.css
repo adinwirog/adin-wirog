@@ -65,7 +65,7 @@
 .banner2 {
     width: 650px;
     height: 400px;
-    background-image: url(Rengginang.jpg);
+    background-image: url(assets/Rengginang.jpg);
     background-color: rgb(223, 223, 223);
     background-blend-mode: darken;
     text-align: center;
