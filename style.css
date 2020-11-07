@@ -163,3 +163,53 @@
     background-repeat: no-repeat;
     background-position: 43% 100%;
 }
+
+.Sejarah {
+    display: flex;
+    margin-top: 154px;
+    margin-bottom: 150px;
+    width: 1260px;
+    height: 700px;
+    justify-content: space-between;
+    font-family: Myriad;
+}
+
+.gambar2 {
+    background-image: url(assets/5eba2f76e3027.jpg);
+    width: 300px;
+    height: 350px;
+    margin-left: 73px;
+    background-repeat: no-repeat;
+    background-position: 43% 100%;
+    margin-top: 20px;
+}
+
+
+.garis2 {
+    background-color: black;
+    width: 15px;
+    height: 350px;
+    margin-right: 31px;
+    margin-left: 31px;
+    margin-top: 20px;
+}
+
+.teks2 {
+    margin-left: 35px;
+    margin-right: 0px;
+    margin-bottom: 175px;
+    width: 900px;
+    height: 350px; 
+}
+
+.teks2 p {
+    font-size: 20pt;
+    text-align: center;
+}
+
+.teks2 h1 {
+    font-size: 30pt;
+    text-align: center;
+    margin-bottom: 90px;
+    font-family: Myriad Bold;
+}
