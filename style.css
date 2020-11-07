@@ -221,8 +221,117 @@
 
 .Varian {
     text-align: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 154px;
+    margin-bottom: 150px;
     font-family: Myriad Bold;
     font-size: 30pt;
+}
+
+.baris1 {
+    display: flex;
+    height: 587px;
+    justify-content: space-between;
+    margin-left: 71px;
+    margin-right: 71px;
+    margin-bottom: 80px;
+}
+
+.baris1 h1 {
+    font-family: Myriad Bold;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 35px;
+}
+
+.baris1 p {
+    font-family: Myriad;
+    text-align: center;
+    font-size: 15pt;
+}
+
+.whitejumbo {
+    background-image: url(assets/IMG_20201014_134725.jpg);
+    height: 267px;
+    width: 298px;
+    background-repeat: no-repeat;
+    background-size: 400px 305px;
+    background-position: 50% 100%;
+}
+
+.brownjumbo {
+    background-image: url(assets/IMG_20201014_134910.jpg);
+    height: 267px;
+    width: 298px;
+    background-repeat: no-repeat;
+    background-size: 390px 290px;
+    background-position: 60% 60%;
+}
+
+.rainbowjumbo {
+    background-image: url(assets/IMG_20201014_135653.jpg);
+    height: 267px;
+    width: 298px;
+    background-repeat: no-repeat;
+    background-size: 465px 365px;
+    background-position: 55% 50%;
+}
+
+.baris2 {
+    display: flex;
+    height: 587px;
+    justify-content: space-between;
+    margin-left: 71px;
+    margin-right: 71px;
+}
+
+.baris2 h1 {
+    font-family: Myriad Bold;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 35px;
+}
+
+.baris2 p {
+    font-family: Myriad;
+    text-align: center;
+    font-size: 15pt;
+}
+
+.rainbowancungan {
+    background-image: url(assets/IMG_20201014_135808.jpg);
+    height: 267px;
+    width: 298px;
+    background-repeat: no-repeat;
+    background-size: 400px 305px;
+    background-position: 70% 50%;
+}
+
+.pesan {
+    background-color: rgb(68, 66, 66);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    margin-top: 30px;
+    cursor: pointer;
+    margin-left: 80px;
+    float: none;
+}
+
+.pesan:hover {
+    background-color: rgb(56, 52, 52);
+}
+
+.klik {
+    margin-top: 150px;
+    font-family: Myriad;
+}
+
+.gronongspecial {
+    background-image: url(assets/IMG_20201014_140827.jpg);
+    height: 267px;
+    width: 298px;
+    background-repeat: no-repeat;
+    background-size: 385px 285px;
+    background-position: 63% 80%;
 }
