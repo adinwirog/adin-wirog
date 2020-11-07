@@ -27,6 +27,7 @@
 }
 
 .navlink li a {
+    display: inline-block;
     color: white;
     text-decoration: none;
 }
@@ -103,4 +104,22 @@
     font-size: 30pt;
     padding-top: 8%;
     padding-right: 4%;
+}
+
+.batas {
+    background-color: black;
+    width: 100%;
+    height: 15px;
+}
+
+.teks1 {}
+
+.garis {
+    background-color: black;
+    width: 15px;
+    height: 40px;
+}
+
+.gambar1 {
+    background-image: url();
 }
