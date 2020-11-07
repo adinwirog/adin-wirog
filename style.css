@@ -3,6 +3,11 @@
     src: url(myriad-pro-cufonfonts-webfont/MYRIADPRO-REGULAR.woff);
 }
 
+@font-face {
+    font-family: "Myriad Bold";
+    src: url(myriad-pro-cufonfonts-webfont/MYRIADPRO-SEMIBOLD.woff);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -112,14 +117,49 @@
     height: 15px;
 }
 
-.teks1 {}
+.tentang {
+    display: flex;
+    margin-top: 154px;
+    margin-bottom: 150px;
+    width: 1260px;
+    height: 350px;
+    justify-content: space-between;
+    font-family: Myriad;
+}
+
+.teks1 {
+    margin-left: 30px;
+    margin-right: 0;
+    margin-bottom: 124px;
+    width: 900px;
+    height: 350px;
+}
+
+.teks1 h1 {
+    font-size: 30pt;
+    text-align: center;
+    margin-bottom: 90px;
+    font-family: Myriad Bold;
+}
+
+.teks1 p {
+    font-size: 20pt;
+    text-align: center;
+}
 
 .garis {
     background-color: black;
     width: 15px;
-    height: 40px;
+    height: 350px;
+    margin-right: 31px;
+    margin-left: 31px;
 }
 
 .gambar1 {
-    background-image: url();
+    background-image: url(assets/51b1dd50-3101-495c-a38d-f0f1bb59e761_169.jpeg);
+    width: 300px;
+    height: 350px;
+    margin-right: 73px;
+    background-repeat: no-repeat;
+    background-position: 43% 100%;
 }
