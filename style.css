@@ -197,8 +197,8 @@
 }
 
 .teks2 {
-    margin-left: 35px;
-    margin-right: 0px;
+    margin-left: 30px;
+    margin-right: 0;
     margin-bottom: auto;
     margin-top: auto;
     width: 900px;
@@ -215,4 +215,12 @@
     text-align: center;
     margin-bottom: 45px;
     font-family: Myriad Bold;
+}
+
+.Varian {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: Myriad Bold;
+    font-size: 30pt;
 }
