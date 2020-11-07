@@ -181,7 +181,8 @@
     margin-left: 73px;
     background-repeat: no-repeat;
     background-position: 43% 100%;
-    margin-top: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 
@@ -191,13 +192,15 @@
     height: 350px;
     margin-right: 31px;
     margin-left: 31px;
-    margin-top: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .teks2 {
     margin-left: 35px;
     margin-right: 0px;
-    margin-bottom: 175px;
+    margin-bottom: auto;
+    margin-top: auto;
     width: 900px;
     height: 350px; 
 }
@@ -210,6 +213,6 @@
 .teks2 h1 {
     font-size: 30pt;
     text-align: center;
-    margin-bottom: 90px;
+    margin-bottom: 45px;
     font-family: Myriad Bold;
 }
