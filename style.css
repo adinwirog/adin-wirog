@@ -8,6 +8,11 @@
     src: url(myriad-pro-cufonfonts-webfont/MYRIADPRO-SEMIBOLD.woff);
 }
 
+@font-face {
+    font-family: "Free Hand";
+    src: url(freehandbt/Freehand521BT.ttf);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -312,7 +317,7 @@
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
-    margin-top: 30px;
+    margin-top: 20px;
     cursor: pointer;
     margin-left: 80px;
     float: none;
@@ -334,4 +339,103 @@
     background-repeat: no-repeat;
     background-size: 385px 285px;
     background-position: 63% 80%;
+}
+
+.pemesanan {
+    background-color: black;
+    color: white;
+    font-family: Myriad;
+}
+
+.pemesanan h1 {
+    text-align: center;
+    font-family: Myriad bold;
+}
+
+.teks1a {
+    text-align: center;
+    font-family: Myriad;
+    margin-top: 20px;
+}
+
+.pemesanan a {
+    margin-top: 0px;
+    margin-left: 485px;
+}
+
+.wa {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.larik1 {
+    display: flex;
+    justify-content: center;
+    width: 324px;
+    height: 62px;
+}
+
+.larik1 img {
+    object-fit: cover;
+    object-position: 0% 50%;
+
+    width: 45px;
+    height: 35px;
+    margin-top: 0px;
+}
+
+.textwa {
+    margin-left: 0px;
+}
+
+.wagaris {
+    background-color: white;
+    width: 2px;
+    height: 35px;
+    margin-top: 4px;
+    margin-left: 25px;
+    margin-right: 17px;
+}
+
+.ig {
+    display: flex;
+    justify-content: center;
+    margin-left: 31px;
+}
+
+.larik1a {
+    display: flex;
+    justify-content: center;
+    width: 324px;
+    height: 62px;
+}
+
+.larik1a img {
+    object-fit: cover;
+    object-position: 0% 50%;
+
+    width: 35px;
+    height: 35px;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.logobawah {
+    display: flex;
+    justify-content: center;
+    font-family: Free Hand;
+    margin-top: 45px;
+}
+
+.logobawah h2 {
+    margin-top: 15px;
+    margin-left: 3px;
+}
+
+.logobawah img {
+    margin-right: 10px;
+    margin-bottom: 5px;
+    width: 45px;
+    height: 48px;
 }
