@@ -5,16 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rengginang Mbah Mutim </title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/Mutim logo.png" type="image/png" sizes="16x16">
 </head>
 <body>
     <header class="banner">
         <a href="index.html"><img class="logo" src="assets/Mutim logo.png" alt="logo"></a>
         <nav>
             <ul class="navlink">
-                <li><a href="#">Tentang</a></li>
-                <li><a href="#">Sejarah</a></li>
-                <li><a href="#">Produk</a></li>
-                <li><a href="#">Pemesanan</a></li>
+                <li><a href="#tentang">Tentang</a></li>
+                <li><a href="#sejarah">Sejarah</a></li>
+                <li><a href="#varian">Produk</a></li>
+                <li><a href="#pemesanan">Pemesanan</a></li>
             </ul>
         </nav>
     </header>
@@ -29,7 +30,7 @@
             <img src="assets/Mutim logo 2.png" alt="logo 2" class="logo2">
         </div>
     </div>
-    <div class="tentang">
+    <div class="tentang" id="tentang">
         <div class="teks1">
             <h1>TENTANG KAMI</h1>
             <p>Kawasan kami berlokasi di</p>
@@ -43,7 +44,7 @@
         <div class="gambar1"></div>
     </div>
     <div class="batas"></div>
-    <div class="Sejarah">
+    <div class="Sejarah" id="sejarah">
         <div class="gambar2"></div>
         <div class="garis2"></div>
         <div class="teks2">
@@ -58,7 +59,7 @@
     </div>
     <div class="batas"></div>
     <div>
-        <h2 class="Varian">VARIAN PRODUK</h2>
+        <h2 class="Varian" id="varian">VARIAN PRODUK</h2>
         <div class="baris1">
             <div>
                 <div class="whitejumbo"></div>
@@ -103,8 +104,8 @@
             </div>
             <div class="klik">
                 <h2>Klik di sini untuk Pemesanan</h2>
-                <a href="#">
-                    <button class="pesan">Pesan Di Sini</button>
+                <a href="#pemesanan">
+                    <button class="pesan">Klik Di Sini</button>
                 </a>
             </div>
             <div>
@@ -119,10 +120,11 @@
             </div>
         </div>
     </div>
-    <div class="pemesanan">
+    <div class="pemesanan" id="pemesanan">
+        <br>
         <h1>PEMESANAN</h1>
         <p class="teks1a">Untuk Pemesanan Langsung Di Web Bisa Klik Di Bawah</p>
-        <a href="#">
+        <a href="form.html">
             <button class="pesan">Pesan Di Sini</button>
         </a>
         <p class="teks1a">Atau Dapat Hubungi Nomor Whatsapp Di Bawah</p>

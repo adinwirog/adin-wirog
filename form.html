@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pemesanan</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="icon" href="assets/Mutim logo.png" type="image/png" sizes="16x16">
+</head>
+<body>
+    <header class="yolo">
+        <a href="index.html"><img class="yolos" src="assets/Mutim logo.png" alt="lol"></a>
+        <nav>
+            <ul class="navyol">
+                <li><a href="index.html#tentang">Tentang</a></li>
+                <li><a href="index.html#sejarah">Sejarah</a></li>
+                <li><a href="index.html#varian">Produk</a></li>
+                <li><a href="index.html#pemesanan">Pemesanan</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h2 class="judul">Formulir Pemesanan</h2>
+    <p class="ket">Isilah formulir tersebut secara lengkap bila ingin pemesanan via website langsung.</p>
+    <div class="section1">
+        <div class="container">
+            <form name="pesan" method="POST" action="form.html">
+            <div class="row">
+                <div class="col-25">
+                    <label for="fname">Nama Depan</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="fname" name="namadepan" placeholder="Isikan Nama Depan">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="lname">Nama Belakang</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="lname" name="namabelakang" placeholder="Isikan Nama Belakang">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="produk">Produk</label>
+                </div>
+                <div class="col-75">
+                    <select name="produk" id="produk">
+                        <option value="white jumbo">White Jumbo</option>
+                        <option value="brown jumbo">Brown Jumbo</option>
+                        <option value="rainbow jumbo">Rainbow Jumbo</option>
+                        <option value="rainbow ancungan">Rainbow Ancungan</option>
+                        <option value="gronong special">Gronong Special</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="jumlah">Jumlah pesan (satuan per buah)</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="jumlah" name="jumlahpesan" placeholder="Isikan dalam per buah">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="WA">Nomor Whatsapp aktif</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="WA" name="namabelakang" placeholder="Isikan Nomor Whatsapp atau nomor telepon anda yang aktif">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="email">E-Mail</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="email" name="namabelakang" placeholder="Isikan E-Mail anda jika ada">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="alamat">Alamat Pemesan</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" name="alamat" id="alamat" placeholder="Isikan alamat secara lengkap" style="height: 100px;" ></input>
+                </div>
+            </div>
+            <div class="row">
+                <a href="konfirm.html">
+                    <input type="button" value="Kirim">
+                </a>
+            </div>
+            </form>
+        </div>
+        
+    </div>
+</body>
+</html>

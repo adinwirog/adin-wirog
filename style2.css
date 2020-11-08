@@ -1,0 +1,157 @@
+@font-face {
+    font-family: "Myriad";
+    src: url(myriad-pro-cufonfonts-webfont/MYRIADPRO-REGULAR.woff);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.yolo {
+    width: 100%;
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    font-family: Myriad;
+    font-size: 18px;
+}
+
+.yolos{
+    height: 85px;
+    width: 85px;
+    margin-top: 8px;
+    margin-left: 50px;
+}
+
+.navyol {
+    list-style-type: none;
+}
+
+.navyol li {
+    display: inline;
+    padding: 39px 50px;
+    line-height: 100px;
+}
+
+.navyol li a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+}
+
+.navyol li:hover {
+    background: #ed1c24;
+}
+
+.navyol li a:hover {
+    color: black;
+}
+
+h2 {
+    text-align: center;
+    font-family: Myriad;
+    margin-top: 20px;
+}
+
+p {
+    text-align: center;
+    font-family: Myriad;
+    margin-top: 20px;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+input[type=button] {
+    background-color: rgb(68, 66, 66);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+input[type=button]:hover {
+    background-color: rgb(56, 52, 52);
+}
+
+.section1 {
+    background-image: url(assets/51b1dd50-3101-495c-a38d-f0f1bb59e761_169.jpeg);
+    background-color:rgb(41, 41, 41);
+    background-blend-mode: soft-light;
+}
+
+
+.container {
+    width: 80%;
+    border-radius: 10px;
+    background-color: #000000;
+    padding: 20px;
+    margin-left: 100px;
+    margin-top: 20px;
+    margin-right: 50%;
+    margin-bottom: 100px;
+    justify-content: space-between;
+}
+
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+    color: white;
+}
+
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.pesan {
+    background-color: rgb(68, 66, 66);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    margin-top: 20px;
+    cursor: pointer;
+    margin-left: 80px;
+    float: none;
+}
+
+.pesan:hover {
+    background-color: rgb(56, 52, 52);
+}
+
+.klik {
+    margin-top: 15px;
+    margin-left: 475px;
+    margin-right: 0px;
+}
+
+
+
+  
+  
+  
