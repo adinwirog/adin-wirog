@@ -137,17 +137,12 @@ input[type=button]:hover {
     margin-top: 20px;
     cursor: pointer;
     margin-left: 80px;
+    margin-left: 550px;
     float: none;
 }
 
 .pesan:hover {
     background-color: rgb(56, 52, 52);
-}
-
-.klik {
-    margin-top: 15px;
-    margin-left: 475px;
-    margin-right: 0px;
 }
 
 
