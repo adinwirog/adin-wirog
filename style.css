@@ -51,12 +51,18 @@
 }
 
 .banner {
+    position: fixed;
+    top: 0;
     width: 100%;
     display: flex;
     background-color: black;
     justify-content: space-between;
     font-family: Myriad;
     font-size: 18px;
+}
+
+.isi {
+    margin-top: 140px;
 }
 
 .cta {
@@ -88,7 +94,6 @@
 }
 
 .beranda {
-    position: relative;
     display: flex;
     margin-top: 40px;
     width: 100%;
@@ -97,17 +102,15 @@
 }
 
 .logo2 {
-    position: relative;
     width: 300px;
     height: 300px;
-    top: 10%;
+    margin-top: 50px;
 }
 
 .cap {
     height: 90px;
-    position: absolute;
-    bottom: 2px;
-    left: 3px;
+    margin-top: 18px;
+    margin-right: 518px;
 }
 
 .teksbrnd p {
