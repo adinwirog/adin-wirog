@@ -9,5 +9,6 @@ Oleh :
 2. Yusnia Dewi Rahmawati (192410102060)
 
 
-Jangan asal nge-clone ya wkwkwk. Kalau mau nge-clone ijin dulu atuh ama yang list di atas.
+Kelompok : 14
+Kelas : TI B
 
