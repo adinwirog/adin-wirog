@@ -323,19 +323,6 @@
 
 .klikbuton {
     position: relative;
-    background-color: rgb(68, 66, 66);
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    margin-top: 20px;
-    cursor: pointer;
-    /* margin-left: 80px; */
-    float: none;
-}
-
-.pesan {
-    position: relative;
     transform: translateX(80%);
     background-color: rgb(68, 66, 66);
     color: white;
@@ -344,7 +331,19 @@
     border-radius: 4px;
     margin-top: 20px;
     cursor: pointer;
-    /* margin-left: 80px; */
+    float: none;
+}
+
+.pesan {
+    position: relative;
+    transform: translateX(70%);
+    background-color: rgb(68, 66, 66);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    margin-top: 20px;
+    cursor: pointer;
     float: none;
 }
 
@@ -498,7 +497,7 @@
     }
 
     .pesan {
-        transform: translateX(-125%);
+        transform: translateX(-135%);
     }
 
     .klik {
