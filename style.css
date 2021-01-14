@@ -321,7 +321,8 @@
     background-position: 70% 50%;
 }
 
-.pesan {
+.klikbuton {
+    position: relative;
     background-color: rgb(68, 66, 66);
     color: white;
     padding: 12px 20px;
@@ -329,8 +330,26 @@
     border-radius: 4px;
     margin-top: 20px;
     cursor: pointer;
-    margin-left: 80px;
+    /* margin-left: 80px; */
     float: none;
+}
+
+.pesan {
+    position: relative;
+    transform: translateX(80%);
+    background-color: rgb(68, 66, 66);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    margin-top: 20px;
+    cursor: pointer;
+    /* margin-left: 80px; */
+    float: none;
+}
+
+.klikbuton:hover {
+    background-color: rgb(56, 52, 52);
 }
 
 .pesan:hover {
@@ -473,5 +492,28 @@
     .navlink.active {
         display: inline;
     }
+
+    .batas {
+        visibility: hidden;
+    }
+
+    .pesan {
+        transform: translateX(-125%);
+    }
+
+    .klik {
+        visibility: hidden;
+    }
+
+    .baris1 div {
+        width: 80%;
+    }
+
+    .baris2 div{
+        width: 80%;
+        
+    }
+
+    
 
 }
